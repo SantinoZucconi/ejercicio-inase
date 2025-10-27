@@ -2,6 +2,7 @@
 /**
  * @var \App\View\AppView $this
  * @var \App\Model\Entity\Resultado $resultado
+ * @var array<string,string> $muestras
  */
 ?>
 <div class="row">

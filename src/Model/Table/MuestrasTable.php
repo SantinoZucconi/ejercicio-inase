@@ -40,6 +40,10 @@ class MuestrasTable extends Table
         $this->setTable('muestras');
         $this->setDisplayField('empresa');
         $this->setPrimaryKey('codigo_de_muestra');
+        $this->hasOne('Resultados', [
+            'foreignKey' => 'id_muestra',
+            'dependent' => true,
+        ]);
     }
 
     /**
