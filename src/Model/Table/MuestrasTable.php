@@ -57,7 +57,8 @@ class MuestrasTable extends Table
         $validator
             ->integer('numero_precinto')
             ->requirePresence('numero_precinto', 'create')
-            ->notEmptyString('numero_precinto');
+            ->notEmptyString('numero_precinto')
+            ->greaterThan('numero_precinto', 0, 'El número de precinto debe ser positivo');
 
         $validator
             ->scalar('empresa')
