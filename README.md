@@ -11,11 +11,13 @@ Aplicación desarrollada con **CakePHP** para la gestión de muestras y resultad
 
 ## Instalación
 
-### 1. Clonar el repositorio
+### 1. Clonar el repositorio e instalar las dependencias
 
 ```
 git clone https://github.com/SantinoZucconi/ejercicio-inase.git
 cd ejercicio-inase
+cp config/app.php config/app_local.php
+composer install
 ```
 
 ### 2. Configurar variables de entorno
