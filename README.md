@@ -2,14 +2,12 @@
 
 Aplicación desarrollada con **CakePHP** para la gestión de muestras y resultados de análisis de semillas.
 
----
 
 ## Requisitos previos
 
 - **PHP >= 8.1**
 - **MySQL**
 
----
 
 ## Instalación
 
@@ -21,6 +19,8 @@ cd ejercicio-inase
 ```
 
 ### 2. Configurar variables de entorno
+
+Las variables de entorno se deben configurar en config/.env
 
 ```
 DB_USER=tu_usuario
@@ -35,7 +35,6 @@ DB_HOST=nombre_host
 bin/cake migrations migrate
 ```
 
----
 
 ## Inicialización de la aplicación
 
