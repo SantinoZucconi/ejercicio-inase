@@ -23,6 +23,13 @@ cd ejercicio-inase
 Las variables de entorno se deben configurar en config/.env
 
 ```
+APP_NAME="__APP_NAME__"
+DEBUG="true"
+APP_ENCODING="UTF-8"
+APP_DEFAULT_LOCALE="en_US"
+APP_DEFAULT_TIMEZONE="UTC"
+SECURITY_SALT="__SALT__"
+
 DB_USER=tu_usuario
 DB_PASSWORD=tu_contraseña
 DB_NAME=nombre_db
@@ -34,7 +41,6 @@ DB_HOST=nombre_host
 ```
 bin/cake migrations migrate
 ```
-
 
 ## Inicialización de la aplicación
 
